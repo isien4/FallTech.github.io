@@ -1,0 +1,368 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/***ugtyfv**/
+
+header{
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    background-color: #605c91;
+    flex-wrap: wrap;
+    
+}
+header ul{
+    position: relative;
+    width: 10010;
+    height: 50px;
+    background: #1B1464;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(35, 39, 97, 0.692);
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+header ul li{
+    position: relative;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+    list-style: none;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+header ul li a i{
+    margin-right: 5px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(1){
+    width: 100px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(2){
+    width: 110px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(3){
+    width: 110px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(4){
+    width: 100px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(5){
+    width: 120px;
+    flex-wrap: wrap;
+}
+header ul .hover{
+       position: absolute;
+       top: 0;
+       height: 100%;
+       border-radius: 8px;
+       transition: all .5s ease 0s;
+       flex-wrap: wrap;
+}
+header ul  .start, li:nth-child(1).hover{
+    background: #F79F1F;
+    width: 105px;
+    left: 0;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(2):hover ~ .hover{
+    background: #F79F1F;
+    width: 115px;
+    left: 100px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(3):hover ~ .hover{
+    background: #F79F1F;
+    width: 115px;
+    left: 220px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(4):hover ~ .hover{
+    background: #F79F1F;
+    width: 110px;
+    left: 320px;
+    flex-wrap: wrap;
+}
+header ul li:nth-child(5):hover ~ .hover{
+    background: #F79F1F;
+    width: 120px;
+    left: 437px;
+    flex-wrap: wrap;
+}
+.bbc {
+    width: 100px;
+}
+.box{
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    margin-top: -43px;
+    margin-left: 70%;
+}
+.box .check:checked ~ .searchebox{
+    max-width: 380px;
+}
+.check:checked ~ .icone{
+    background: #fff;
+    color: yellow;
+    width: 60px;
+    border-radius: 0 25px 0;;
+}
+.check{
+    display: none;
+}
+.searchebox{
+    position: relative;
+    max-width: 50px;
+    height: 40px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0, .5);
+    transition: all .3s ease-out;
+}
+.searchebox input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: rgb(209, 203, 203);
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.searchebox .icone{
+    position: absolute;
+    right: -2px;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    background: #F79F1F;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.banniere .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.banniere .contenu h2{
+    color: #1B1464;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: #2B2A28;
+    font-size: 1.2em;
+}
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background:#F79F1F ;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn2{
+    font-size: 1em;
+    color: #fff;
+    background: #1B1464;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn1:hover{
+    background-color: #1B1464;
+    transition: all ease 0.3s;
+}
+.btn2:hover{
+    background-color: #F79F1F;
+    transition: all ease 0.3s;
+}
+.KIT{
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.dec{
+    padding: 50px;
+    color: #FFF1C9;
+}
+.KIT .titre{
+    text-align: center;
+    color: #1B1464;
+}
+.KIT .contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+
+}
+.KIT .contenu .box{
+    width: 350px;
+    margin: 15px;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: transform 0.4s;
+}
+.KIT .contenu .box:hover{
+    cursor: pointer;
+    transform: translateY(-15px);
+    border: 1px solid #1B1464;
+    border-radius: 15px;
+}
+.KIT .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: o;
+    object-fit: cover;
+}
+.KIT .contenu .box h3{
+    text-align: center;
+    color: #2B2A28;
+}
+.boutique{
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 25px;
+}
+.boutique .section{
+    margin: -15px;
+}
+.boutique .section p{
+    color: #909191;
+}
+.boutique .section h2{
+    color: #1B1464;
+    text-align: center;
+}
+.boutique .section .liste{
+    display: flex;
+    overflow-x: auto;
+}
+.boutique .section .liste a{
+    padding-left: 5px;
+    transition: transform 0.25s;
+}
+
+.boutique .section .liste a:hover{
+    transform: scale(1.05);
+}
+.boutique .section  a img{
+    height: 130px;
+    width: 145px;
+    border: 1px solid #1B1464;
+}
+.boutique .section .liste .cc{
+    text-align: center;
+    margin: 5px;
+    transition: transform 0.25s;
+    border: 3px solid #1B1464;
+}
+.boutique .section .liste .cc:hover{
+    transform: scale(1.05);
+}
+.boutique .section .liste .cc h3{
+    margin-top: -8px;
+}
+.boutique .section .liste .cc p{
+    margin-top: 10px;
+    color: #2B2A28;
+}
+.boutique .section .liste .cc .rating{
+    margin-top: 1px;
+    color: #1B1464;
+}
+.section4{
+    margin-top: 70px;
+    border-top: 1px solid #2B2A28;
+}
+.section4 .container{
+    padding: 15px;
+}
+.section4  a{
+    margin: 200px;
+    margin-left:40px;
+    text-decoration: none;
+    color: #2B2A28;
+    font-size: 20px;
+    font-weight: 400;
+}
+.copyright{
+    padding: 20px 40px;
+    background-color: rgba(228,222,222,);
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: #2B2A28;
+    text-transform: uppercase;
+}
+.copyright a{
+    color: #2B2A28;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
